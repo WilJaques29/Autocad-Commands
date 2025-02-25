@@ -1,0 +1,6 @@
+(defun c:PPATH ()
+   (command "PlotToFilePath" (getvar "DWGPREFIX"))
+   (princ "\nPlot path now matches Drawing path.")
+   (princ)
+)
+(command "PlotToFilePath" (getvar "DWGPREFIX"))
